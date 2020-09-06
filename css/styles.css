@@ -1,5 +1,6 @@
 html{
     background-color: #272727;
+    overflow: hidden;
 }
 .topNav{
     overflow: hidden;
@@ -18,4 +19,13 @@ html{
 .topNav a.active{
     background-color: #14A76C;
     color: #747474;
+}
+.jumbotron-fluid{
+    background-image: url(../images/display\ pizza.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+
 }
