@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $("#sizeId").click(function(){
+        $("#sizeT").toggle();
+    })
+})
+$(document).ready(function(){
+    $("#toppingId").click(function(){
+        $("#toppingT").toggle();
+    })
+})
+$(document).ready(function(){
+    $("#crustId").click(function(){
+        $("#crustT").toggle();
+    })
+})
