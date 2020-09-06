@@ -25,7 +25,7 @@
                         <img class="card-img-top" src="./images/hawaiian.jpg" alt="Hawaiian Pizza">
                             <p class="card-text">Choose pizza <span style="color: #00ff0d;" > size</span></p> 
                                 <div  class="pizzasize" id="sizeT">
-                                  <input type="radio"  id="small" name="size" value="small">
+                                  <input type="radio"  id="small" name="size" value="small" checked>
                                 <label for="small"> Small </label>
                             <input type="radio"  id="medium" name="size" value="medium">
                         <label for="medium"> Medium </label>
@@ -36,7 +36,7 @@
              <div class="pizzaTopping" id="toppingT">
                     <div class="row">
                        <div class="col-md-6">
-                           <input type="radio"  id="pepperoni" name="toppings" value="pepperoni">
+                           <input type="radio"  id="pepperoni" name="toppings" value="pepperoni" checked>
                              <label for="pepperoni"> Pepperoni </label><br>
                                 <input type="radio"  id="mushrooms" name="toppings" value="mushrooms">
                                   <label for="mushrooms"> Mushrooms </label><br>
@@ -62,9 +62,28 @@
                </div>
             </div>    
        <p class="card-text">What type of <span style="color: #00ff0d;" > crust </span> would you like ?</p> 
-                    <div  class="pizzasize" id="sizeT">
-                                  <input type="radio"  id="small" name="size" value="small">
-                                <label for="small"> Small </label>
+         <div class="pizzaCrust" id="crustT">
+            <div class="row">
+               <div class="col-md-6">
+                  <input type="radio"  id="thin" name="crust" value="thin" checked>
+                    <label for="thin"> Thin Crusts </label><br>
+                     <input type="radio"  id="thick" name="crust" value="thick">
+                   <label for="thick"> Thick Crusts </label><br>
+              <input type="radio"  id="flatBread" name="crust" value="flatBread">
+          <label for="flatBread"> Flat Bread </label>
+        </div>
+           <div class="col-md-6">
+              <input type="radio"  id="focaccia" name="crust" value="focaccia">
+                <label for="focaccia"> Focaccia </label><br>
+                   <input type="radio"  id="stuffed" name="crust" value="stuffed">
+                    <label for="stuffed"> Stuffed Crusts </label><br>
+                   <input type="radio"  id="custom" name="crust" value="custom">
+               <label for="custom"> Custom Crusts </label>
+            </div>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit">
+            </div>
                         
 
                       
