@@ -5,6 +5,7 @@ html{
 .topNav{
     overflow: hidden;
     background-color: #333;
+    padding: 10px;
 }
 .topNav a {
     float: right;
@@ -28,4 +29,22 @@ html{
     overflow: hidden;
     
 
+}
+.jumbotron-fluid .header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+}
+.jumbotron-fluid h1{
+    padding: 70px;
+    color:#ff652f;
+    font-family: 'Courgette', cursive;
+    font-size: 100px;
+}
+.jumbotron-fluid h2{
+    padding: 40px;
+    color: #14A76C;
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
 }
