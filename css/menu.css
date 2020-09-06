@@ -41,3 +41,6 @@ html body{
 .card-text span{
     cursor: pointer;
 }
+.card-body img{
+    padding-bottom: 15px;
+}
