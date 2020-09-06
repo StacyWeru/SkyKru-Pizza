@@ -8,35 +8,68 @@
     </head>
     <body>
         <div class="topNav">
-            <a href="#about "> About</a>
-            <a href="#services"> Services</a>
-            <a class="active"  href="./menu.html"> Menu </a>
-            <a href="./index.html"> Home</a>
-        </div>
+             <a href="#about "> About</a>
+               <a href="#services"> Services</a>
+                <a class="active"  href="./menu.html"> Menu </a>
+               <a href="./index.html"> Home</a>
+           </div>
         <div class="container-fluid">
             <div class="text">
                 <p>Please select the pizza you would like...</p>
+                 </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-deck">
+                    <div class="card-body">
+                        <img class="card-img-top" src="./images/hawaiian.jpg" alt="Hawaiian Pizza">
+                            <p class="card-text">Choose pizza <span style="color: #00ff0d;" > size</span></p> 
+                                <div  class="pizzasize" id="sizeT">
+                                  <input type="radio"  id="small" name="size" value="small">
+                                <label for="small"> Small </label>
+                            <input type="radio"  id="medium" name="size" value="medium">
+                        <label for="medium"> Medium </label>
+                    <input type="radio"  id="large" name="size" value="large">
+                <label for="large"> Large </label>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card-deck">
-                        <div class="card-body">
-                           <img class="card-img-top" src="./images/hawaiian.jpg" alt="Hawaiian Pizza">
-                           <p class="card-text">Choose pizza <span style="color: #00ff0d;" > size</span></p> 
-                           <div  class="pizzasize" id="sizeT">
-                           <label class="box"> Small
-                               <input type="radio"  checked="checked" name="radio">
-                               <span class="checkmark"></span>
-                           </label>
-                           <label class="box"> Medium
-                            <input type="radio"name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="box"> Large
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                           </div>
+        <p class="card-text">Would you like extra <span style="color: #00ff0d;" > toppings </span> ?</p> 
+             <div class="pizzaTopping" id="toppingT">
+                    <div class="row">
+                       <div class="col-md-6">
+                           <input type="radio"  id="pepperoni" name="toppings" value="pepperoni">
+                             <label for="pepperoni"> Pepperoni </label><br>
+                                <input type="radio"  id="mushrooms" name="toppings" value="mushrooms">
+                                  <label for="mushrooms"> Mushrooms </label><br>
+                                    <input type="radio"  id="onions" name="toppings" value="onions">
+                                  <label for="onions"> Onions </label><br>
+                                 <input type="radio"  id="sausage" name="toppings" value="sausage">
+                               <label for="sausage"> Sausage </label><br>
+                            <input type="radio"  id="bacon" name="toppings" value="bacon">
+                          <label for="bacon"> Bacon </label>
+                        </div>
+                    <div class="col-md-6">
+                        <input type="radio"  id="extraCheese" name="toppings" value="extraCheese">
+                            <label for="extraCheese"> Extra Cheese </label>
+
+                             
+                                <input type="radio"  id="blackOlives" name="toppings" value="blackOlives">
+                                  <label for="blackOlives"> Black Olives </label>
+
+                                 
+                                    <input type="radio"  id="greenPeppers" name="toppings" value="greenPeppers">
+                                      <label for="greenPeppers"> Green Peppers</label>
+
+                                   
+                                        <input type="radio"  id="pineapple" name="toppings" value="pineapple">
+                                          <label for="pineapple"> Pineapple </label>
+
+                                          
+                                            <input type="radio"  id="spinach" name="toppings" value="spinach">
+                                              <label for="spinach"> Spinach</label> </div>
+
+                           
+                            </div>
+
                         </div>
                     </div>
                     
