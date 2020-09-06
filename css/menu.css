@@ -1,6 +1,9 @@
 html body{
+   background-color: #747474;
    background-image: url(../images/display\ pizza.jpg);
    background-size: cover;
+   background-blend-mode: multiply;
+   
 }
 .topNav{
     overflow: hidden;
@@ -21,3 +24,20 @@ html body{
     background-color: #14A76C;
     color: #747474;
 }
+.card-deck .card-body{
+    background-color: whitesmoke;
+}
+.box {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
