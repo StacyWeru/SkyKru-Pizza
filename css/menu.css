@@ -24,20 +24,20 @@ html body{
     background-color: #14A76C;
     color: #747474;
 }
-.card-deck .card-body{
+.card .card-deck .card-body{
     background-color: whitesmoke;
+    border-radius: 5px;
+    width: 25%;
 }
-.box {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+.text{
+    color: #FFE400;
+    font-family: 'Bilbo', cursive;
+    font-size: 35px;
+}
+.card-text{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+.card-text span{
     cursor: pointer;
-    font-size: 15px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  
+}
