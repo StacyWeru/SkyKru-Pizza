@@ -50,3 +50,18 @@ html body{
      width: 400px;
      
  }
+ .card-title h2{
+     color: #ffe400;
+     font-family: 'Bilbo', cursive;
+     font-size: 50px;
+     font-weight: bolder;
+ }
+ .card-body p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+ }
+ .footer{
+    font-family: 'Bilbo', cursive;
+    font-size: 50px;
+    color: #ffe400;
+ }
