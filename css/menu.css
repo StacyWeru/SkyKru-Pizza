@@ -24,3 +24,22 @@ html body{
     background-color: #14A76C;
     color: #747474;
 }
+.text{
+    font-family: 'Bilbo', cursive;
+    font-size: 35px;
+    color: #ffe400;
+} 
+.img{
+    padding: 10px;
+}
+
+.col-md-6{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
