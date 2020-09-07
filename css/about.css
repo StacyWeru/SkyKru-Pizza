@@ -24,3 +24,29 @@ html body{
      background-color: #14A76C;
      color: #747474;
  }
+ .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    
+ }
+ .card{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     height: 100%;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 50%;
+     border-radius: 12px;
+     padding: 50px;
+     background-color:whitesmoke;
+ }
+ .icons img{
+     height: 200px;
+     width: 400px;
+     
+ }
