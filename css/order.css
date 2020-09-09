@@ -24,3 +24,12 @@ html body{
      background-color: #14A76C;
      color: #747474;
  }
+ .text{
+    font-family: 'Bilbo', cursive;
+    font-size: 35px;
+    color: #ffe400;
+} 
+
+.container-fluid .placeOrder .card .card-body{
+    background-color: #747474;
+}

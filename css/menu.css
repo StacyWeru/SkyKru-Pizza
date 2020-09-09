@@ -43,3 +43,23 @@ html body{
     display: table;
     clear: both;
 }
+.card{
+   background-color: #14A76C;
+   background-blend-mode: multiply;
+}
+.col-md-4{
+    display: flex;
+    justify-content: space-between;
+
+}
+.col-md-4 .pizzaType{
+    padding-left: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+
+}
+.col-md-4 .pizzaType:hover{
+    text-decoration: underline red;
+    
+}
+
