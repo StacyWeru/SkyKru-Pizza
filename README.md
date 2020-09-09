@@ -9,7 +9,7 @@ This is a website in which you can search for your desired pizza with a little s
 * the live link to the website
 
 ## Known Bugs
-Currently working on Fixing the changing pages
+ The order page may not provide the correct lists.
 ## Technologies Used
 *HTML
 *CSS
